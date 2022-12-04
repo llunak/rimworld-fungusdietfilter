@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <SpecialThingFilterDef>
+    <defName>FDF_AllowFungus</defName>
+    <label>allow food with fungus</label>
+    <description>Allow food that contains fungus. This accounts for meals whose classification depends on their ingredients.</description>
+    <parentCategory>Foods</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>FDF_allowFungus</saveKey>
+    <workerClass>FungusDietFilter.SpecialThingFilterWorker_Fungus</workerClass>
+  </SpecialThingFilterDef>
+
+</Defs>
